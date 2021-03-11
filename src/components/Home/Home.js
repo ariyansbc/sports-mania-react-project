@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Home.css'
 import League from '../League/League';
-import banner from '../../Photos/banner.jpg'
 
 
 const Home = () => {

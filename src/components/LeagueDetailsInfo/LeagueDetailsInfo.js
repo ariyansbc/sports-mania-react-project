@@ -6,7 +6,7 @@ import { FaFacebookF, FaTwitter, FaYoutube, FaMapMarkerAlt, FaFontAwesomeFlag, F
 
 const LeagueDetailsInfo = (props) => {
 
-    const { strLogo, strLeague, strFanart4, dateFirstEvent, strGender, strCountry, strSport, strDescriptionEN } = props.leagueDetails;
+    const { strLogo, strLeague,dateFirstEvent, strGender, strCountry, strSport, strDescriptionEN } = props.leagueDetails;
     let genderImg;
 
     if(strGender=== "Male") {

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Link,Route,Router } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './League.css'
-import { FaAngleRight, FaFacebookF } from "react-icons/fa";
+import { FaAngleRight} from "react-icons/fa";
 
 const League = (props) => {
    
